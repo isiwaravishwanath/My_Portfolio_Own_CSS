@@ -1,3 +1,19 @@
-*{
-    background-color: green;
+nav{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    background-color: red;
+}
+
+nav .logo{
+    margin-left: 30px;
+}
+nav .opt{
+    margin-right: 30px;
+    list-style: none;
+}
+
+nav .opt a{
+    margin-left: 30px;
+    list-style: none;
 }
