@@ -4,6 +4,10 @@
     background-color: rgb(4, 12, 97);
 }
 
+.body{
+    margin: 0 10% 0 10%;
+}
+
 nav{
     display: flex;
     /* width: 100%; */
@@ -12,10 +16,10 @@ nav{
 }
 
 nav .logo{
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 nav .opt{
-    margin-right: 10%;
+    /* margin-right: 10%; */
     list-style: none;
 }
 
