@@ -1,19 +1,51 @@
+*{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(4, 12, 97);
+}
+
 nav{
     display: flex;
     /* width: 100%; */
     justify-content: space-between;
-    background-color: red;
+    margin-top: 20px;
 }
 
 nav .logo{
-    margin-left: 30px;
+    margin-left: 10%;
 }
 nav .opt{
-    margin-right: 30px;
+    margin-right: 10%;
     list-style: none;
 }
 
-nav .opt a{
+nav .opt span{
     margin-left: 30px;
     list-style: none;
+}
+
+nav .opt span a {
+    color: #fff;
+    margin-left: 25px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav .opt span a::before {
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 3px;
+    margin-top: 23px;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+nav .opt span a:hover::before {
+    width: 100%;
+    background: white;
+    position: absolute;
 }
